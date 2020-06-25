@@ -1,3 +1,5 @@
+package chapter3;
+
 public class BreakExampleTwo {
     public static void main(String[] args) {
         done: for (int i = 0; i < 10; i++) {

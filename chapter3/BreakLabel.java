@@ -1,3 +1,5 @@
+package chapter3;
+
 // something akin to goto, breaks and goes to something else (break <label>)
 
 public class BreakLabel {

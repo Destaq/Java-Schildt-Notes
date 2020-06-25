@@ -1,3 +1,5 @@
+package chapter3;
+
 public class Guess4 {
     public static void main(String[] args) throws java.io.IOException{
         char ch, ignore, answer = 'K';

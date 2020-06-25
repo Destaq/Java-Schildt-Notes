@@ -1,3 +1,5 @@
+package chapter3;
+
 import java.io.IOException;
 
 public class ForLoop {
