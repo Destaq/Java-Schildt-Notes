@@ -31,10 +31,9 @@ public class ForLoop {
             i++;
         }
 
-        /* e.g. infinite loop
-        // for (;;) {
-            // do something
-        } */
+        /*
+         * e.g. infinite loop // for (;;) { // do something }
+         */
 
         // empty for loop
         int m;
@@ -44,5 +43,13 @@ public class ForLoop {
 
         }
         System.out.println("Sum is: " + sum); // note you can't print m, it is outside of scope
+
+        // do-while (same as JS, runs at least once)
+        char ch;
+
+        do {
+            System.out.println("Press a key followed by ENTER: ");
+            ch = (char) System.in.read();
+        } while (ch != 'q'); // outside of brackets
     }
 }
