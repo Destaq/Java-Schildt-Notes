@@ -1,3 +1,5 @@
+package chapter3;
+
 public class LowerToUpper {
     public static void main(String[] args) throws java.io.IOException {
         char ch;
