@@ -9,20 +9,20 @@ class Pwr {
         b = base; // same as b or this.b
         e = exp;
 
-        /* REASON TO USE THIS:
-        Equals(int number) {
-            this.number = number; // we can use the <number> keyword twice
-        }
-        */
+        /*
+         * REASON TO USE THIS: Equals(int number) { this.number = number; // we can use
+         * the <number> keyword twice }
+         */
 
         val = 1;
-        if (exp == 0) return;
-        for ( ; exp>0; exp--) {
+        if (exp == 0)
+            return;
+        for (; exp > 0; exp--) {
             val = val * base;
         }
     }
 
-    double get_pwr(){
+    double get_pwr() {
         return val;
     }
 }
