@@ -1,0 +1,15 @@
+The ternary operator is already known, I've used it before in JS.
+
+Anyway here is a quick recap:
+    Boolean ? if True : if False
+
+For example:
+    int i = 10;
+    result = i == 10 ? System.out.println("i is 10") : System.out.println("i is not 10");
+
+You can also use it as a conditional expression;
+    if (i != 0 ? true : false) {
+        print("i is not zero.)
+    }
+
+The above code can be explained by the fact that the loop will only run if the conditional is true, and it is true based on the evaluation by the ternary operator.
