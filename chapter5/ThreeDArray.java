@@ -1,3 +1,5 @@
+package chapter5;
+
 public class ThreeDArray {
     public static void main(String[] args) {
         // create a regular one

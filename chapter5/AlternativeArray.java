@@ -1,3 +1,5 @@
+package chapter5;
+
 public class AlternativeArray {
     /*
     type[] varname

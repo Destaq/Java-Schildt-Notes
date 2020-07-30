@@ -1,3 +1,5 @@
+package chapter5;
+
 // arrays can only hold elements of the same size
 class ArrayDemo {
     public static void main(String[] args) {

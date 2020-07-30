@@ -1,3 +1,5 @@
+package chapter5;
+
 public class XOREncode {
     public static void main(String[] args) {
         String msg = "This is a test";

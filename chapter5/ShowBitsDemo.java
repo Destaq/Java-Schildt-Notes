@@ -1,3 +1,5 @@
+package chapter5;
+
 /*
     Try This 5-3
     A class that displays the binary representation of a value

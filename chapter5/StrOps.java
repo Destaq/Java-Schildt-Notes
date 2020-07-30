@@ -1,3 +1,5 @@
+package chapter5;
+
 public class StrOps {
     public static void main(String[] args) {
         String s1 = "When it comes to Web Programming, Java is #1.";

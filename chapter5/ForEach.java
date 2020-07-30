@@ -1,3 +1,5 @@
+package chapter5;
+
 public class ForEach {
     public static void main(final String[] args) {
         // for (type itr-var: collection) statement-block

@@ -1,3 +1,5 @@
+package chapter5;
+
 public class MultiDimensionalArrays {
     public static void main(String[] args) {
         // int twod[][] = new int[10][20]; // ten by twenty array

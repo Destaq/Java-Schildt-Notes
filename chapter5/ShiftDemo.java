@@ -1,3 +1,5 @@
+package chapter5;
+
 public class ShiftDemo {
     public static void main(String[] args) {
         /* Java has the power to shift bytes

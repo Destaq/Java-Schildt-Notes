@@ -1,3 +1,5 @@
+package chapter5;
+
 public class StringDemo {
     public static void main(String[] args) {
         // strings are objects, they can be declared various ways

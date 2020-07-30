@@ -1,3 +1,5 @@
+package chapter5;
+
 /*
 Try This 5-2
 A Queue class for characters.
