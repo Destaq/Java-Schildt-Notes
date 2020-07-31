@@ -7,7 +7,7 @@ For example:
     int i = 10;
     result = i == 10 ? System.out.println("i is 10") : System.out.println("i is not 10");
 
-You can also use it as a conditional expression;
+You can also use it as a conditional expression:
     if (i != 0 ? true : false) {
         print("i is not zero.)
     }
