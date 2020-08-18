@@ -1,3 +1,5 @@
+package chapter6;
+
 // Recursion is fully supported in Java. Let's look at solving the Fibonacci (with and without recursion)
 
 class Factorial {

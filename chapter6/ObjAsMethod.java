@@ -1,3 +1,5 @@
+package chapter6;
+
 class Block {
     // passing objects to methods
     int a, b, c;

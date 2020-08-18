@@ -5,7 +5,7 @@ class MyClass {
 
     MyClass(int i) {
         x = i;
-    } // this is the constructor
+    } // this is our constructor
 
 }
 

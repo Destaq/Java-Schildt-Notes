@@ -1,3 +1,5 @@
+package chapter6;
+
 class QuickSort {
     static void qsort(char items[]) {
         qs(items, 0, items.length - 1);

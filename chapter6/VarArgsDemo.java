@@ -1,3 +1,5 @@
+package chapter6;
+
 public class VarArgsDemo {
     // supports multiple types of args
 

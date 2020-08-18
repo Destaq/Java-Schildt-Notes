@@ -1,3 +1,5 @@
+package chapter6;
+
 class Outer {
     int nums[];
 

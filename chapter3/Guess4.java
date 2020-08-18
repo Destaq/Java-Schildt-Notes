@@ -5,7 +5,7 @@ public class Guess4 {
         char ch, ignore, answer = 'K';
 
         do {
-            System.out.println("I'm thinking of a number between A and Z");
+            System.out.println("I am thinking of a number between A and Z");
             System.out.println("Can you guess it?");
 
             ch = (char) System.in.read();

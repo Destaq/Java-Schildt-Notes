@@ -1,3 +1,5 @@
+package chapter6;
+
 class SDemo {
     int x; // normal instance variable
     static int y; // thre is one copy of y, it is global

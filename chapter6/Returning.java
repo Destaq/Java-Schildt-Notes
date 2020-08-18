@@ -1,3 +1,5 @@
+package chapter6;
+
 // Return a String Object
 class SimpleErrorMsg {
     String msgs[] = {

@@ -1,6 +1,6 @@
 package chapter1;
 /*
-Demonstrates the for-loop.
+Demonstrates the wonderful for-loop.
 */
 
 class ForDemo {

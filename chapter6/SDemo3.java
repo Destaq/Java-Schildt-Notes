@@ -1,3 +1,5 @@
+package chapter6;
+
 class StaticBlock {
     static double rootof2;
     static double rootof3;

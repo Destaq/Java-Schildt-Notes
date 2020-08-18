@@ -2,7 +2,7 @@ package chapter5;
 
 public class ShiftDemo {
     public static void main(String[] args) {
-        /* Java has the power to shift bytes
+        /* Java has the power to shift bytes!
         There are three such shift operators:
         << - Left Shift
         >> - Right Shift
