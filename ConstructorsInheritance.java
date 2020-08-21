@@ -1,7 +1,8 @@
-// if you inherit from a superclass, even though you are inheriting, you won't be able
-// to access private variables
+// it's possible for both superclasses and subclasses  to have their own constructors. 
 
-class TwoDShape2 {
+// add a constructor to triangle (a demonstration)
+
+class TwoDShape3 {
     private double width;
     private double height;
 
@@ -16,9 +17,20 @@ class TwoDShape2 {
     void setHeight(double h) { height = h; }
 }
 
-// another subclass example
-class Triangle2 extends TwoDShape2 {
-    String style;
+class Triangle3 extends TwoDShape3 {
+    private String style;
+
+    // below is an example of a subclass constructor
+    Triangle3(String s, double w, double h) {
+        setWidth(w);
+        setHeight(h);
+
+        style = s;
+    }
+
+    // for the sake of conciseness we won't actually be initializing this triangle
+    // but if we were too then it would look something like the below:
+    // Triangle3 t1 = new Triangle("filled", 4.0, 8.0) -> works simply like this as the numbers are used in functions, not immediately assigned
 
     double area() {
         // return width * height / 2; // error - you cannot access a private member of a superclass
