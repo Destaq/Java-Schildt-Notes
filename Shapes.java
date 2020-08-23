@@ -22,6 +22,24 @@ class Triangle extends TwoDShape {
     }
 }
 
+// quick example demonstrating multi-level inheritance
+class ColorTriangle extends Triangle {
+    private String color;
+
+    // ColorTriangle(String c, String s, double w, double h) {
+    //     super(s, w, h);
+    //     color = c;
+    // }
+
+    // Note: super always refers to the closest superclass
+
+    void showColor() {
+        System.out.println(color);
+    }
+
+
+}
+
 class Rectangle extends TwoDShape {
     boolean isSquare() {
         if (width == height) {
