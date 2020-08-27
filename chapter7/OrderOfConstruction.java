@@ -1,3 +1,5 @@
+package chapter7;
+
 class A1 {
     A1() {
         System.out.println("Constructing A...");

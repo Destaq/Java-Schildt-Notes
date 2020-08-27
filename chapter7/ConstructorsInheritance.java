@@ -1,3 +1,5 @@
+package chapter7;
+
 // it's possible for both superclasses and subclasses  to have their own constructors. 
 
 // add a constructor to triangle (a demonstration)

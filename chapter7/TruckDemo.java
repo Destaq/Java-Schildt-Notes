@@ -1,3 +1,5 @@
+package chapter7;
+
 // Try This 7-1 --- building a subclass of vehicle for trucks
 
 class Vehicle {

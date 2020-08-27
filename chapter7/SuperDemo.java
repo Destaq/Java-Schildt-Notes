@@ -1,3 +1,5 @@
+package chapter7;
+
 // using super to overcome name hiding
 class A {
     int i;

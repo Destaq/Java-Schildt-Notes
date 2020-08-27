@@ -1,3 +1,5 @@
+package chapter7;
+
 // demonstrating simple class hierarchy + inheritance
 class TwoDShape {
     double width;

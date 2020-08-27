@@ -1,3 +1,5 @@
+package chapter7;
+
 // it's possible for both superclasses and subclasses  to have their own constructors. 
 // let's take a look at what it looks like when this happens...
 

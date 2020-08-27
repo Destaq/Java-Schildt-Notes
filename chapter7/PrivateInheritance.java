@@ -1,3 +1,5 @@
+package chapter7;
+
 // if you inherit from a superclass, even though you are inheriting, you won't be able
 // to access private variables
 
