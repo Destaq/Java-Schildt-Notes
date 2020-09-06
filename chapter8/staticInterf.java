@@ -1,3 +1,5 @@
+package chapter8;
+
 public interface staticInterf {
     // this is a normal interface method declaration
     // it does not define a default implementation

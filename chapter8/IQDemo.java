@@ -1,3 +1,5 @@
+package chapter8;
+
 class FixedQueue implements ICharQ {
     private char q[]; // holds the queue
     private int putloc, getloc;

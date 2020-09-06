@@ -1,4 +1,4 @@
-package bookpack;
+package chapter8.bookpack;
 
 class Book {
     private String title;

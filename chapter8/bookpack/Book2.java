@@ -1,4 +1,4 @@
-package bookpack;
+package chapter8.bookpack;
 
 public class Book2 {
     // these are now protected

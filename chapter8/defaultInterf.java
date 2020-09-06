@@ -1,3 +1,5 @@
+package chapter8;
+
 public interface defaultInterf {
     // this is a normal inteface method declaration without a default implementation
     int getUserID();

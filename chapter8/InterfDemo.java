@@ -1,3 +1,5 @@
+package chapter8;
+
 interface interfaceDemo {
     int getNext(); // return next number in series
     void reset();

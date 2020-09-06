@@ -1,6 +1,6 @@
-package bookpack.bookpackext;
+package chapter8.bookpack.bookpackext;
 
-class ExtBook extends bookpack.Book2 {
+class ExtBook extends chapter8.bookpack.Book2 {
     // for protection - would also work in another file, as long as it is a subclass
     private String publisher;
 
