@@ -23,7 +23,7 @@ class TryCatchDemo {
 
             nums[7] = 10;
             System.out.println("This won't be displayed...");
-        } catch (ArrayIndexOutOfBoundsException exc) {
+        } catch (ArrayIndexOutOfBoundsException exc) { // only catches the type of exception within
             // catch the exception
             System.out.println("Index out of bounds!");
         }
@@ -31,3 +31,8 @@ class TryCatchDemo {
         System.out.println("After catch has played out...");
     }
 }
+
+/*
+ * Note: you can catch Exceptions based on classes, so you could catch any
+ * exception with Throwable
+ */
