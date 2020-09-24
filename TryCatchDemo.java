@@ -28,6 +28,10 @@ class TryCatchDemo {
             System.out.println("Index out of bounds!");
         }
 
+        // NOTE: you can also catch multiple exceptions
+        // catch (ExceptionOne | ExceptionTwo e) {}
+        // e.g. catch (ArithmeticException | ArrayIndexOutOfBoundsException e) {}
+
         System.out.println("After catch has played out...");
     }
 }
