@@ -1,3 +1,5 @@
+package chapter9;
+
 public class ThrowsDemo {
     // throws is in the function definition; it is what exceptions the method might throw
     // we didn't do this before because we don't need to for subclasses of Exception

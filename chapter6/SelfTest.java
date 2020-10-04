@@ -3,6 +3,23 @@ package chapter6;
 public class SelfTest {
     public static void main(String[] args) {
         // Implementing a Stack Heap
+        class FullException extends Exception {
+            private static final long serialVersionUID = 1L;
+
+            public String toString() {
+                return "Stack is full!";
+            }
+        }
+
+        class EmptyException extends Exception {
+            private static final long serialVersionUID = 2L;
+
+            public String toString() {
+                return "Stack is empty!";
+            }
+        }
+
+
         class Stack {
             private char stack[];
             private int tos;
@@ -12,18 +29,18 @@ public class SelfTest {
                 tos = 0;
             }
 
-            void push(char ch) {
+            void push(char ch) throws FullException {
                 if (tos == stack.length) {
-                    System.out.println("Stack is full!");
+                    throw new FullException();
                 } else {
                     stack[tos] = ch;
                     tos++;
                 }
             }
 
-            char pop() {
+            char pop() throws EmptyException {
                 if (tos == 0) {
-                    System.out.println(("Stack is empty!"));
+                    throw new EmptyException();
                 }
                 tos--;
                 return (char) stack[tos];
@@ -77,7 +94,7 @@ public class SelfTest {
         }
 
         // see we have an ambiguous error below
-        NestedExample demo = new NestedExample(5, 5, 3);
+        // NestedExample demo = new NestedExample(5, 5, 3);
     }
 
     static int vaShow(int ... v) {

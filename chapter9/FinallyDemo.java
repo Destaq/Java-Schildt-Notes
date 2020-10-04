@@ -1,3 +1,5 @@
+package chapter9;
+
 class useFinally {
     public static void genException(int what) {
         int t;

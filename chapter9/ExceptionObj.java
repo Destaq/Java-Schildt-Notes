@@ -1,3 +1,5 @@
+package chapter9;
+
 class ExcTest {
     static void genException() {
         int nums[] = new int[4];

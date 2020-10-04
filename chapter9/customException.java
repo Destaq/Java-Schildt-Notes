@@ -1,5 +1,8 @@
+package chapter9;
+
 // create a custom exception
 class NonIntResultException extends Exception {
+    private static final long serialVersionUID = -3683811987707533430L;
     int d;
     int n;
 
@@ -34,6 +37,8 @@ public class customException {
             } catch (NonIntResultException exc) {
                 System.out.println(exc);
             }
+
+            // NOTE: you can also catch multiple exceptions in the same loop with |
         }
     }
 }
