@@ -30,6 +30,11 @@ public class CopyFile {
             fin = new FileInputStream(args[0]);
             fout = new FileOutputStream(args[1]);
 
+            // alternative `try-with-resources` syntax: try (resource-specification)
+            // {
+            //  use the resource
+            // }
+
             do {
                 i = fin.read();
                 if (i != -1) {
