@@ -12,7 +12,7 @@ class BetterFirstThread implements Runnable {
         BetterFirstThread myThrd = new BetterFirstThread(name);
 
         myThrd.thrd.start();
-        return myThrd;    
+        return myThrd;
     }
 
     // entry point of thread
@@ -32,23 +32,40 @@ class BetterFirstThread implements Runnable {
 
 }
 
+// use isAlive().
 class ThreadVariations {
     public static void main(String[] args) {
         System.out.println("Main thread starting...");
 
         // create and start a thread
-        BetterFirstThread.createAndStart("Child #1");
-        BetterFirstThread.createAndStart("Child #2");
-        BetterFirstThread.createAndStart("Child #3");
+        BetterFirstThread t1 = BetterFirstThread.createAndStart("Child #1");
+        BetterFirstThread t2 = BetterFirstThread.createAndStart("Child #2");
+        BetterFirstThread t3 = BetterFirstThread.createAndStart("Child #3");
 
-        for (int i = 0; i < 50; i++) {
+        // join() syntax. join() waits until the thread finishes execution
+        /*
+        try {
+            t1.thrd.join();
+            System.out.println("Child #1 joined");
+            t2.thrd.join();
+            System.out.println("Child #2 joined");
+            t3.thrd.join();
+            System.out.println("Child #3 joined");
+        } catch (InterruptedException exc) {
+            System.out.println("Main thread interrupted.");
+        }
+        System.out.println("Main thread ending.");
+        */
+
+        do {
             System.out.print(".");
             try {
                 Thread.sleep(100);
             } catch (InterruptedException exc) {
                 System.out.println("Main thread interrupted.");
             }
-        }
+        } while (t1.thrd.isAlive() || t2.thrd.isAlive() || t3.thrd.isAlive()); // keep running until all child threads
+                                                                               // terminate
 
         System.out.println("Main thread ending.");
     }
