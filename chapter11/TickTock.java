@@ -69,11 +69,21 @@ class MyThread3 implements Runnable {
         if (thrd.getName().compareTo("Tick") == 0) {
             for (int i = 0; i < 5; i++) {
                 ttOb.tick(true);
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException exc) {
+                    System.out.println("Thread interrupted.");
+                }
                 ttOb.tick(false);
             }
         } else {
             for (int i = 0; i < 5; i++) {
                 ttOb.tock(true);
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException exc) {
+                    System.out.println("Thread interrupted.");
+                }
                 ttOb.tock(false);
             }
         }
